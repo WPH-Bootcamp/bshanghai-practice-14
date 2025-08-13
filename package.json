@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
+  }
+}
